@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-13T20:07:40.566Z",
+        "line": 13,
+        "name": "Email fill Password empty",
+        "description": "",
+        "id": "test-login-feature;email-fill-password-empty;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User navigates to login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User enters kale.nilay and ",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on \"Sign In\" button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User should see the error message and close it",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-13T20:07:40.637Z",
+        "line": 25,
+        "name": "Fail Login",
+        "description": "",
+        "id": "test-login-feature;fail-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "User navigates to login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User enters kale.nilay and studenttt",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "User navigates to login page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-12-13T20:07:40.646Z",
+        "line": 37,
+        "name": "Login Success",
+        "description": "",
+        "id": "test-login-feature;login-success;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30,
+            "name": "User navigates to login page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "User enters kale.nilay and student",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "Click on \"Sign In\" button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should see the home page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test login feature",
+    "description": "",
+    "id": "test-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
